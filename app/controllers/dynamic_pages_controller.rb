@@ -4,4 +4,16 @@ class DynamicPagesController < ApplicationController
 
   def help
   end
+
+  def about
+  end
+
+  def blog
+  end
+
+  def gallery
+  end
+
+  def projects
+  end
 end

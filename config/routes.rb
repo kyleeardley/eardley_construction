@@ -1,6 +1,10 @@
 EardleyConstruction::Application.routes.draw do
   get "dynamic_pages/home"
   get "dynamic_pages/help"
+  get "dynamic_pages/about"
+  get "dynamic_pages/blog"
+  get "dynamic_pages/gallery"
+  get "dynamic_pages/projects"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
