@@ -1,4 +1,5 @@
 class DynamicPagesController < ApplicationController
+
   def home
   end
 
@@ -14,6 +15,9 @@ class DynamicPagesController < ApplicationController
   def gallery
   end
 
-  def projects
+  def contact
+  end
+
+  def project
   end
 end

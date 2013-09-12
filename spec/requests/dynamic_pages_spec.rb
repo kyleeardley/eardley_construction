@@ -10,3 +10,4 @@ describe "Dynamic pages" do
     end
   end
 end
+
