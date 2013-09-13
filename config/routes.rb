@@ -1,5 +1,6 @@
 EardleyConstruction::Application.routes.draw do
-  get "users/new"
+  resources :users
+  match '/signup',  to: 'users#new',            via: 'get'
   root 'dynamic_pages#home'
   match '/help',    to: 'dynamic_pages#help',    via: 'get'
   match '/about',   to: 'dynamic_pages#about',   via: 'get'
